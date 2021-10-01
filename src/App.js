@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Layout>
         <Header>
+
           <Menu
             style={{ marginTop: "20px" }}
             className="nar"
@@ -42,6 +43,7 @@ function App() {
               {" "}
               <Menu.Item key={6}>加入我们</Menu.Item>
             </NavLink>
+
           </Menu>
         </Header>
         <Content>
